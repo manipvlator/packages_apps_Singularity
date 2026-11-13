@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2024-2026 Lunaris AOSP -->
+<resources>
+    <string name="edge_aurora_title">Edge Aurora</string>
+    <string name="edge_aurora_enable">Gunakan Edge Aurora</string>
+    <string name="edge_aurora_summary">Setiap aplikasi menyala dengan warnanya sendiri. Ketuk atau tahan untuk melihat sekilas.</string>
+    <string name="edge_aurora_instructions">Tambahkan aplikasi atau grup di bawah. Gunakan aksi ketuk atau tahan yang dipilih untuk membuka panel notifikasi sebuah cahaya, luaskan notifikasi untuk membacanya, dan balas jika aplikasi mendukungnya. Saat Ketuk dipilih, tahan cahaya untuk memindahkannya. Anda juga dapat memindahkan cahaya di pratinjau pengaturannya. Tarik panel ke dalam atau ketuk Mengambang untuk membuat gelembung yang dapat dipindahkan; seret kembali ke cahayanya untuk menempelkannya, atau ke Hapus untuk menghapus notifikasinya. Edge Aurora dapat berjalan bersama Edge Light dan otomatis dijeda saat GameSpace aktif.</string>
+    <string name="edge_aurora_glows">Cahaya Anda</string>
+    <string name="edge_aurora_add">Tambah cahaya</string>
+    <string name="edge_aurora_add_app">Tambah aplikasi</string>
+    <string name="edge_aurora_add_group">Grup baru</string>
+    <string name="edge_aurora_group_summary">Beri beberapa aplikasi satu warna dan satu posisi di tepi layar</string>
+    <string name="edge_aurora_new_group">Grup baru</string>
+    <string name="edge_aurora_search">Cari aplikasi</string>
+    <string name="edge_aurora_loading">Memuat aplikasi…</string>
+    <string name="edge_aurora_no_apps">Aplikasi tidak ditemukan</string>
+    <string name="edge_aurora_no_user_apps">Tidak ada aplikasi untuk ditampilkan. Aktifkan Tampilkan aplikasi sistem untuk melihat semua aplikasi.</string>
+    <plurals name="edge_aurora_picker_app_count">
+        <item quantity="one">%d aplikasi</item>
+        <item quantity="other">%d aplikasi</item>
+    </plurals>
+    <string name="edge_aurora_picker_selected">%1$s · %2$d dipilih</string>
+    <string name="edge_aurora_unavailable_app">Aplikasi tidak tersedia</string>
+    <string name="edge_aurora_save_failed">Tidak dapat menyimpan pilihan aplikasi. Coba lagi.</string>
+    <string name="edge_aurora_limit">Tidak dapat menyimpan pengaturan cahaya lagi. Hapus cahaya atau grup yang tidak digunakan, lalu coba lagi.</string>
+    <string name="edge_aurora_interaction">Interaksi</string>
+    <string name="edge_aurora_popup_blur">Latar buram pop-up notifikasi</string>
+    <string name="edge_aurora_popup_blur_summary">Gunakan efek buram di belakang panel notifikasi. Nonaktifkan untuk latar belakang solid.</string>
+    <string name="edge_aurora_open_action">Buka panel notifikasi</string>
+    <string-array name="edge_aurora_open_action_entries">
+        <item>Ketuk cahaya</item>
+        <item>Tahan cahaya</item>
+    </string-array>
+    <string-array name="edge_aurora_open_action_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="edge_aurora_auto_peek">Buka saat notifikasi masuk</string>
+    <string name="edge_aurora_auto_peek_summary">Tampilkan panel sekilas secara otomatis untuk notifikasi baru saat perangkat tidak terkunci</string>
+    <string name="edge_aurora_peek_timeout">Tutup otomatis setelah</string>
+    <string name="edge_aurora_only_edge">Hanya di tepi layar</string>
+    <string name="edge_aurora_only_edge_summary">Gantikan notifikasi heads-up untuk aplikasi yang telah diatur selama Edge Aurora terlihat. Suara notifikasi dan panel notifikasi tetap berfungsi seperti biasa.</string>
+    <string name="edge_aurora_quiet">Senyap saat digunakan</string>
+    <string name="edge_aurora_quiet_summary">Jeda cahaya saat aplikasi yang dipilih sedang dibuka. Notifikasi yang tertunda akan muncul setelah Anda keluar.</string>
+    <string name="edge_aurora_screen">Layar kunci &amp; layar mati</string>
+    <string name="edge_aurora_lock_screen">Cahaya di layar kunci</string>
+    <string name="edge_aurora_lock_screen_summary">Ikuti pengaturan visibilitas dan privasi notifikasi layar kunci</string>
+    <string name="edge_aurora_wake">Cahaya ambient untuk notifikasi</string>
+    <string name="edge_aurora_wake_summary">Tampilkan cahaya Anda sesaat pada tampilan ambient yang redup dan gelap. Layar tetap mati saat sensor jarak dekat tertutup.</string>
+    <string name="edge_aurora_brightness">Kecerahan cahaya ambient</string>
+    <string name="edge_aurora_timeout">Durasi cahaya ambient</string>
+    <string name="edge_aurora_clock">Tampilkan jam</string>
+    <string name="edge_aurora_profile_enabled">Aktifkan cahaya ini</string>
+    <string name="edge_aurora_name">Nama grup</string>
+    <string name="edge_aurora_members">Aplikasi dalam grup ini</string>
+    <string name="edge_aurora_drag_hint">Seret cahaya pada pratinjau, atau ketuk tepi lainnya. Cahaya yang saling tumpang tindih akan berbagi ruang saat menyala bersamaan.</string>
+    <string name="edge_aurora_appearance">Tampilan</string>
+    <string name="edge_aurora_edge">Tepi</string>
+    <string name="edge_aurora_palette">Preset warna</string>
+    <string name="edge_aurora_color">Warna kustom</string>
+    <string name="edge_aurora_recent_colors">Warna kustom terbaru</string>
+    <string name="edge_aurora_motion">Animasi</string>
+    <string name="edge_aurora_shape">Bentuk</string>
+    <string name="edge_aurora_position">Posisi</string>
+    <string name="edge_aurora_length">Panjang</string>
+    <string name="edge_aurora_thickness">Ketebalan</string>
+    <string name="edge_aurora_bloom">Bloom</string>
+    <string name="edge_aurora_try">Coba di ponsel ini</string>
+    <string name="edge_aurora_try_summary">Tampilkan cahaya ini selama enam detik</string>
+    <string name="edge_aurora_notification_settings">Pengaturan notifikasi aplikasi</string>
+    <string name="edge_aurora_remove">Hapus cahaya</string>
+    <string name="edge_aurora_preview_description">Pratinjau langsung Edge Aurora</string>
+    <string name="edge_aurora_profile_summary">%1$s · %2$s · %3$s</string>
+    <string name="edge_aurora_on">Aktif</string>
+    <string name="edge_aurora_off">Nonaktif</string>
+    <string name="edge_aurora_members_count">%1$d aplikasi</string>
+    <string-array name="edge_aurora_edges"><item>Kiri</item><item>Kanan</item><item>Atas</item><item>Bawah</item></string-array>
+    <string-array name="edge_aurora_edge_values" translatable="false"><item>LEFT</item><item>RIGHT</item><item>TOP</item><item>BOTTOM</item></string-array>
+    <string-array name="edge_aurora_motions"><item>Bernapas</item><item>Aurora</item><item>Komet</item><item>Denyut</item><item>Bara</item><item>Neon</item><item>Gelombang</item></string-array>
+    <string-array name="edge_aurora_motion_values" translatable="false"><item>BREATHE</item><item>AURORA</item><item>COMET</item><item>PULSE</item><item>EMBER</item><item>NEON</item><item>WAVE</item></string-array>
+    <string-array name="edge_aurora_motion_descriptions">
+        <item>Cahaya yang membesar perlahan dan lembut</item><item>Rona yang berdekatan bergeser dan berpadu</item>
+        <item>Kepala cahaya terang bergerak di sepanjang tepi dengan jejak cahaya</item><item>Detak jantung merambat keluar dari tengah</item>
+        <item>Percikan hangat berkelip di sepanjang jalur</item><item>Tabung cahaya tajam dengan kedipan halus</item>
+        <item>Pita cahaya lembut bergulir di sepanjang tepi</item>
+    </string-array>
+    <string-array name="edge_aurora_colors"><item>Merah muda</item><item>Koral</item><item>Emas</item><item>Mint</item><item>Sian</item><item>Biru</item><item>Violet</item><item>Lavender</item><item>Magenta</item><item>Putih</item></string-array>
+    <string-array name="edge_aurora_color_values" translatable="false"><item>#FF5C8A</item><item>#FF7A59</item><item>#FFC857</item><item>#5CFF9E</item><item>#5CE1E6</item><item>#6C8CFF</item><item>#8B7CFF</item><item>#C77DFF</item><item>#FF6AD5</item><item>#F4F5F8</item></string-array>
+    <string-array name="edge_aurora_peek_time_entries"><item>2 detik</item><item>3 detik</item><item>4 detik</item><item>5 detik</item><item>6 detik</item><item>7 detik</item><item>8 detik</item><item>9 detik</item><item>10 detik</item><item>11 detik</item><item>12 detik</item><item>13 detik</item><item>14 detik</item><item>15 detik</item><item>16 detik</item><item>17 detik</item><item>18 detik</item><item>19 detik</item><item>20 detik</item><item>21 detik</item><item>22 detik</item><item>23 detik</item><item>24 detik</item><item>25 detik</item><item>26 detik</item><item>27 detik</item><item>28 detik</item><item>29 detik</item><item>30 detik</item><item>Sampai ditutup</item></string-array>
+    <string-array name="edge_aurora_peek_time_values" translatable="false"><item>2</item><item>3</item><item>4</item><item>5</item><item>6</item><item>7</item><item>8</item><item>9</item><item>10</item><item>11</item><item>12</item><item>13</item><item>14</item><item>15</item><item>16</item><item>17</item><item>18</item><item>19</item><item>20</item><item>21</item><item>22</item><item>23</item><item>24</item><item>25</item><item>26</item><item>27</item><item>28</item><item>29</item><item>30</item><item>0</item></string-array>
+</resources>

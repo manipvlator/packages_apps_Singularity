@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ts_rkp_title">RKP Perangkat · Duck</string>
+    <string name="ts_rkp_enabled">Gunakan RKP perangkat</string>
+    <string name="ts_rkp_enabled_summary">Buat keybox secara otomatis dan perbarui sebelum kedaluwarsa. Mengimpor keybox akan menonaktifkan opsi ini.</string>
+    <string name="ts_rkp_provision">Buat keybox</string>
+    <string name="ts_rkp_provision_summary">Minta keybox pengganti sekarang, atau coba lagi provisioning otomatis yang dijeda. Memerlukan firmware Qualcomm yang kompatibel.</string>
+    <string name="ts_rkp_status">Status provisioning</string>
+    <string name="ts_rkp_owner_only">Kelola RKP perangkat dari profil pemilik perangkat</string>
+    <string name="ts_rkp_unavailable">RKP perangkat tidak tersedia</string>
+    <string name="ts_rkp_imported">Dinonaktifkan selama keybox hasil impor terpasang</string>
+    <string name="ts_rkp_disabled">Nonaktif. Aktifkan RKP perangkat untuk membuat dan memperbarui keybox secara otomatis.</string>
+    <string name="ts_rkp_idle">Pembuatan otomatis telah dijadwalkan</string>
+    <string name="ts_rkp_fetching">Mengambil challenge provisioning…</string>
+    <string name="ts_rkp_hardware">Menunggu layanan provisioning perangkat…</string>
+    <string name="ts_rkp_signing">Meminta sertifikat dari Google…</string>
+    <string name="ts_rkp_validating">Memvalidasi dan menyimpan keybox…</string>
+    <string name="ts_rkp_ready">Keybox hasil pembuatan aktif. Kedaluwarsa pada %1$s. Pembaruan otomatis dijadwalkan pada %2$s.</string>
+    <string name="ts_rkp_keybox_stored">Keybox RKP perangkat tersimpan</string>
+    <string name="ts_rkp_expired">Keybox hasil pembuatan telah kedaluwarsa. Penggantian otomatis akan berjalan saat koneksi tersedia.</string>
+    <string name="ts_rkp_hal_rejected">Firmware menolak permintaan (kode %1$d). Tidak ada metode provisioning yang kompatibel yang berhasil.</string>
+    <string name="ts_rkp_http_error">Server provisioning menolak permintaan (HTTP %1$d)</string>
+    <string name="ts_rkp_unsupported">Perangkat tidak menyediakan antarmuka provisioning yang kompatibel</string>
+    <string name="ts_rkp_network_error">Tidak dapat menjangkau server provisioning. Periksa koneksi Anda.</string>
+    <string name="ts_rkp_submission_unknown">Respons server hilang. Permintaan mungkin sudah diproses; tidak ada percobaan ulang otomatis.</string>
+    <string name="ts_rkp_invalid_chain">Validasi sertifikat keybox gagal. Keybox yang ada tetap dipertahankan.</string>
+    <string name="ts_rkp_timeout">Waktu provisioning habis. Jika layanan perangkat masih sibuk, mulai ulang perangkat sebelum mencoba lagi.</string>
+    <string name="ts_rkp_canceled">Permintaan dibatalkan karena konfigurasi keybox berubah</string>
+    <string name="ts_rkp_save_failed">Tidak dapat menyimpan keybox hasil pembuatan</string>
+    <string name="ts_rkp_action_failed">Tidak dapat menyelesaikan operasi keybox</string>
+    <string name="ts_rkp_waiting_network">Menunggu koneksi internet untuk membuat atau memperbarui keybox</string>
+    <string name="ts_rkp_auto_paused">%1$s Provisioning otomatis dijeda. Gunakan Buat keybox untuk mencoba lagi.</string>
+    <string name="ts_rkp_auto_retry">%1$s Percobaan otomatis berikutnya: %2$s.</string>
+    <string name="ts_rkp_native_unavailable">Komponen provisioning native tidak tersedia atau tidak kompatibel dengan firmware ini</string>
+    <string name="ts_rkp_native_transport">Layanan provisioning native berhenti secara tidak terduga. Provisioning otomatis dijeda.</string>
+    <string name="ts_rkp_invalid_response">Perangkat mengembalikan respons provisioning yang tidak valid. Keybox yang ada tetap dipertahankan.</string>
+</resources>
